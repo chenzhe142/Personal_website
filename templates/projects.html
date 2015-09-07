@@ -7,11 +7,7 @@
 	<div class="wrapper clearfix">
 
 		<section class="page-content clearfix">
-			<!-- <div class="one-half first"> -->
-
-				<!-- ############### -->
-
-				<header class="section-header">
+<!-- 				<header class="section-header">
 
 					<h3 class="section-title">Snapshot Diary</h3>
 
@@ -32,7 +28,7 @@
 				</p>
 
 				<hr>
-
+ -->		<div class="test-placeholder"></div>
 
 				<header class="section-header">
 
@@ -189,5 +185,18 @@
 
 </article>
 
+<!-- js template -->
+<script type="text/template" class="project-template">
+	<header class="section-header">
+		<h3 class="section-title"><%= name %></h3>
+		<span class="section-subtitle">
+			<a href="<%= link %>" target="_blank">
+				View on GitHub
+			</a> 
+			<br>
+		</span>
+	</header>
+	<p><%= info %></p>
+</script>
 
 {% endblock %}
